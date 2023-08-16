@@ -39,8 +39,8 @@ public class ProductController {
 	}
 	
 	
-//	@RequestMapping("/cart/view")
-//	public String CartView() {
-//		return "cart/view";
-//	}
+	@RequestMapping("/cart/view")
+	public String CartView() {
+		return "cart/view";
+	}
 }
