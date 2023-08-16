@@ -25,7 +25,10 @@ app.controller("shopping-cart-app",function ($scope,$http) {
             this.saveToLocalStorage();
         },
 
-        clear(){},
+        clear(){
+			this.items = []
+			this.saveToLocalStorage();			
+		},
 
         amt_of(item){},
         //tổng các mặt hàng trong giỏ hàng
