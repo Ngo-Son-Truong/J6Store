@@ -34,5 +34,15 @@ public class ProductServiceImpl implements ProductService{
 		return pdao.save(product);
 	}
 
+	@Override
+	public Product update(Product product) {
+		return pdao.save(product);
+	}
+
+	@Override
+	public void delete(Integer id) {
+		pdao.deleteById(id);;
+	}
+
 
 }
