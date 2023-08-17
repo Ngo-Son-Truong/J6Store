@@ -12,4 +12,6 @@ public interface ProductService {
 
 	List<Product> findByCategoryId(String cid);
 
+	Product create(Product product);
+
 }

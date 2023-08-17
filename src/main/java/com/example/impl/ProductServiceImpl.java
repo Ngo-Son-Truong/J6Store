@@ -29,5 +29,10 @@ public class ProductServiceImpl implements ProductService{
 		return pdao.findByCategoryId(cid);
 	}
 
+	@Override
+	public Product create(Product product) {
+		return pdao.save(product);
+	}
+
 
 }
