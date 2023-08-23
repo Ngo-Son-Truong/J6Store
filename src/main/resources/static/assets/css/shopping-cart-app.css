@@ -1,3 +1,35 @@
-.poly-item .panel-title{
-	font-size: smaller;
-}
+
+    /* Additional CSS styles for enhancing the appearance */
+    body {
+      background-color: #f8f8f8;
+    }
+    header {
+      margin-bottom: 20px;
+    }
+    .navbar {
+      margin-bottom: 0;
+    }
+    .navbar-brand {
+      font-size: 24px;
+      color: #fff;
+    }
+    .nav.navbar-nav > li > a {
+      color: #fff;
+    }
+    .nav.navbar-nav.navbar-right > li > a {
+      color: #ff9800;
+    }
+    .glyphicon-shopping-cart {
+      font-size: 25px;
+      color: orange;
+    }
+    .panel-primary {
+      border-color: #337ab7;
+    }
+    .panel-primary > .panel-heading {
+      background-color: #337ab7;
+      color: #fff;
+    }
+    .list-group-item {
+      background-color: #f8f8f8;
+    }
